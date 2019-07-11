@@ -8,6 +8,8 @@ from keras.layers import Dense
 from keras.layers import Dropout
 from keras.layers import Flatten, Conv2D, MaxPooling2D, ZeroPadding2D
 
+def god(i):
+    return i+1
 
 def plot_image(image):
     fig = plt.gcf()
